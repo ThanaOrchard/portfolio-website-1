@@ -15,7 +15,16 @@
 }
 
 
-/* LinkedIn button*/
+
+section.resume-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    max-width: 75rem;
+  }
+
+
+
+/* LinkedIn button
 .btn-linkedin {
     background: #0E76A8;
     border-radius: 0;
@@ -30,7 +39,12 @@
   .btn-linkedin:active, .btn-linkedin:hover {
     background: #084461;
     color: #fff;
+  }*/
+
+  #about, #projects, #skills {
+    background-color: #A0C4CB;
   }
+
 
   /********************************************************************************************
    *************************************** Side Bar  ******************************************
@@ -83,7 +97,7 @@
     display: inline-block;
     height: 2.5rem;
     width: 2.5rem;
-    background-color: #495057;
+    /*background-color: #495057;*/
     color: #fff !important;
     border-radius: 100%;
     text-align: center;
@@ -92,6 +106,10 @@
     margin-top: .25 rem;
   }
 
+/*
+.fa-facebook-f {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png");
+}*/
 
   
   .social-icons a:last-child {
