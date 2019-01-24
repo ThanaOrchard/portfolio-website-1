@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html> 
+       <!-- FIXME:
+    *** text-color, font-size, font-family, and font and font-weight
+    *** 2 css blocks with obvious override
+    *** 3 web design pattern
+    *** change 1 display property
+    *** nav bar (name-title, linked in and github)
+    *** 2 classes or tags to style nav bar
+    *** media queries
+    *** add git tag -->
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio Resume</title>
+        <link rel="stylesheet" href="index.css" >
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        
+    <div class="container"> <!--side bar content container begin-->
+        <div class="sidenav"> <!--side bar locked begin -->
+            <div class="social-icons text-center"> <!--FIXME: put images into social icon-->
+                <a href="https://github.com/daaimah123">
+                    <i class="fa fa-github-alt"></i>
+                </a>   
+                <a href="https://twitter.com/DTibrey">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/daaimah123/">
+                    <i class="fa fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.facebook.com/daaimahb">
+                    <i class="fa fa-facebook-f"></i>
+                </a>
+            </div>
+
+            <ul class="list-unstyled text-center">
+                    <li>
+                        <img  src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.15752-9/47069807_1012892572216513_6341236019580370944_n.png?_nc_cat=106&_nc_ht=scontent-sjc3-1.xx&oh=bf2736aae5fc8fbab64f81e5353ab592&oe=5C66597D&dl=1" height="100" width="105" class="rounded-circle mb-2" alt="Daaimah Smiling"> 
+                    </li>
+           
+                <li >
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li >
+                        <a class="nav-link js-scroll-trigger" href="#background">Why Tech?</a>
+                    </li>
+                    <li >
+                        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                    </li>
+                    <li >
+                        <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                    </li>
+                    <li >
+                        <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+                    </li>
+            </ul>
+
+
+            
+                <ul >
+
+               
+                </ul>
+            <!--<div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+            </div>-->
+
+
+        </div> <!--side bar locked end-->
+    </div> <!-- side bar content container ends-->
+
+    <div class="main"> <!--main page content begin-->   
+
+        <section class="resume-section p-5 p-lg-5 d-flex d-column bg-info" id="about">   <!--FIXME: adjust margins at top and bottom to only show about me section--> 
+                <div>
+                    <h1 class="mb-0">Daaimah
+                        <span class="text-primary">Tibrey</span>
+                    </h1>
+                    <div class="subheading mb-5">Hayward, CA
+                        <a href="mailto:name@email.com">Write Me</a>
+                    </div>
+                    <p class="lead mb-5">Advocate for Building Resource Access through Tech</p>
+                </div>
+        </section>
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="background">
+            <div class="my-auto">
+                <h2 class="mb-5">Why Tech?</h2>
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Background</h3>
+                    <p>Coming from a nonprofit framework braking barriers for underserved populations has always been a passion, it gave me agency to defy challenges with evolving determination. In relocating to San Francisco, navigating my own exceptional barriers, I grew closer to tech. My normative transitioned from regularly being without my phone for days at a time, into employing it as my daily personal broker. Resourcefully, I leveraged technologies it held to discover, advocate, and resolve my circumstances. My experience heightened my awareness to disconnect between technology and unequal access to opportunity.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+            <div class="my-auto">
+                <h2 class="mb-5">Projects</h2>
+    
+                <div class="resume-item d-flex  flex-md-row mb-5 bg-info">
+                    <div class="col"> <!--column begin-->
+                        <div class="resume-content mr-auto">
+                            <h3 class="mb-0">Project 1 Name</h3> 
+                            <div class="subheading mb-3">Topic</div>
+                            <p>Description of Project. Frameworks used, why and what it does. Link name to github repo of project and include snapshots/gifs and readme of project on github.</p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <span class="text-primary">Month YYYY; stats of impact or features</span> <!--FIXME: text color-->
+                        </div>
+                    </div> <!--column end-->
+                    <div class="col"> <!--column begin-->
+                        <div class="resume-content mr-auto">
+                            <h3 class="mb-0">Project 2 Name</h3> 
+                            <div class="subheading mb-3">Topic</div>
+                            <p>Description of Project. Frameworks used, why and what it does. Link name to github repo of project and include snapshots/gifs and readme of project on github.</p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <span class="text-primary">Month YYYY; stats of impact or features</span> <!--FIXME: text color-->
+                        </div>
+                    </div> <!--column end-->
+                    <!-- EXTRA COLUMNS TO ADD MORE PROJECTS LATER, THESE MOVE HORIZONTALLY, WILL NEED TO ADD ANOTHER ROW FOR COLUMNS TO SIT BENEATH
+                    <div class="col"> !-- column begin--
+                    </div> !--column end--
+                    <div class="col"> !--column begin--
+                    </div> !--column end-- -->
+            </div>
+        </section>
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+                <div class="my-auto">
+                    <h2 class="mb-5">Experience</h2>
+                        <div class="row"> <!--row begin-->
+                            <section class="content col" id="current"> 
+                                <h3 class="mb-0">What I'm Up To:</h3> 
+                                <div class="subheading mb-3">Software Engineer Apprentice, <a class="text-dark" href=https://techtonica.org/>Techtonica</a></div>
+                                <p>An excellerated immersive project-based full-stack programming environment. Self-emphasis on identifying solutions to 
+                                    technical and personal obstacles. Mentorship from industry professionals advocating for inclusion, while building a network 
+                                    of support.</p>
+                            </section>
+                            <section class="content col" id="past">
+                                <h3 class="mb-0">What Did I do?</h3> 
+                                <div class="subheading mb-3">Program Participant, <a class="text-dark" href=https://www.codetenderloin.org/>Code Tenderloin</a></div>
+                                <p>Practical application and understanding of front-end development foundations (HTML, CSS, & JavaScript) in support of technical 
+                                    career objectives. Advanced to remote training sponsored by Hack Reactor Structured Study Program (SSP), supported by Code 
+                                    TL volunteers for limited learning assist, and post-matriculation advising.</p>
+                                <div class="subheading mb-3">Site Supervisor, <a class="text-dark" href=https://www.projecthired.org/>Project HIRED</a></div>
+                                <p>Developed tracking system to incentivize performance, create actions plans, and scale key indicators. Tracked weekly 
+                                    operation metrics to forecast employee coaching needs and provide monthly report to program manager. Consistent coaching and 
+                                    feedback. Facilitate site schedule with daily changes requiring flexibility and quick troubleshooting.</p>
+                                <div class="subheading mb-3">Application Advocate, <a class="text-dark" href=http://www.wfresnofrc.org/>West Fresno Family Resource Center</a></div>
+                                <p>Implemented powerful data reporting systems for grant reporting and interorganizational tracking. Application & retention 
+                                    management of key public health benefits connection to underserved and undocumented populations. Maintained and improved 
+                                    outreach relations with hospitals and local community access points. Increased productivity by integrating manual processes 
+                                    to electronic cloud sharing. </p>
+                            </section>
+                        </div><!--row end-->
+                </div>
+        </section>
+    </div><!--main page content end-->
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+<!--RECREATING; OLD VERSION BELOW -->
+
+<!--        <div class="container">  %%%%%%% TO-DO %%%%%%%% Insert Wrapper Container-1A for Content of Page Below %%%%%%% TO-DO %%%%%%%% 
+            <div class="row" id="row-1A"> Row-1A Begins 
+                 <div class="col-md-2 lead ">  Name and Summary Begin
+                    <h1>Daaimah Tibrey</h1>
+                    <p class="advocate">Advocate for Building Resource Access through Tech</p>
+                     %%%%%%% TO-DO %%%%%%%% Card Begin %%%%%%% TO-DO %%%%%%%% 
+                </div> Name and Summary End
+                <div class="col-md-10"> 
+                       <div class="container">Test container 
+                <div class="col-md-10">
+                        <div class="row">  Row-2A Begins
+                            <div class="col-md-3">
+                                <img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.15752-9/47069807_1012892572216513_6341236019580370944_n.png?_nc_cat=106&_nc_ht=scontent-sjc3-1.xx&oh=bf2736aae5fc8fbab64f81e5353ab592&oe=5C66597D&dl=1" height="250" width="260" class="rounded-circle" alt="Daaimah Smiling">
+                            </div>
+                            <div class=" col-md-10">
+                                <ul>
+                                    <h5 id="text">Application</h5>
+                                    <li>Performance Data Analysis</li>
+                                    <li>Outreach & Grant Development </li>
+                                    <li>Recipe Page</li>
+                                </ul> 
+                            </div>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <ul>
+                                    <h5 id="text">Skillset</h5>
+                                    <li>HTML, CSS, JavaScript, & Bootstrap.</li>
+                                    <li>Grant collaboration and reporting. </li>
+                                    <li>Led workshops for varied proficiencies. </li>
+                                    <li>Crossfunctional communication and understanding of diverse populations. </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-7">
+                                <p>this is some text this is some text this is some text this is some text this is some text this is some text this is some text this is some text </p>
+                            </div>
+                </div>  
+            </div>
+        </div>  -->
